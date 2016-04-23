@@ -1,11 +1,17 @@
-# http://www.r-bloggers.com/rstudio-and-github/
+# 
 
-## R Code to reproduce Figure 2b et c
-
-setwd("/home/msemon/Documents/PapierSouris/RSCRIPT_FOR_GITHUB/")
 
 library(DESeq2)
 library(plyr)
+
+
+###############################################
+##
+## Setting the data for profile analysis
+##
+###############################################
+
+
 
 # Reading the data, using DESEq2 to get normalised (rld) values
 counts <- read.table("TabCountsMouse",sep="\t",h=T,row.names="id")
