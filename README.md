@@ -3,7 +3,7 @@ ToothTranscriptomeAnalyses
 
 
 # Initial install and configuration
-Once you have downloaded the repo to your local environment, the first thing that you want to do is to install all of the packages that this project will require.  This way you will avoid errors when running the scripts.
+Once you have downloaded the repository to your local environment, the first thing that you may do is to install all of the packages that this project will require. This way you will avoid errors when running the scripts.
 
 The compressed version of the library RHmm can be found here:
 
@@ -13,10 +13,10 @@ https://cran.r-project.org/src/contrib/Archive/RHmm/RHmm_2.0.3.tar.gz
 install.packages(pkgs="RHmm_2.0.3.tar.gz",repos = NULL, type="source")
 ```
 
-Other necessary packages are:
+Other necessary packages are :
 
 ```r
-install.packages(c("reshape", "ggplot2"), dependencies=TRUE)
+install.packages(c("reshape", "ggplot2", "ade4"), dependencies=TRUE)
 
 source("https://bioconductor.org/biocLite.R")
 biocLite("DESeq2")

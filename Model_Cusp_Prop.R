@@ -68,7 +68,7 @@ addcusp=function(nx,ny,nr)
 }
 
 
-# Each tooth germ is a grid. Lower tooth has 2 rows of cusps, each containing 3 cusps
+# Each tooth germ is a grid. The lower tooth has 2 rows of cusps, each containing 3 cusps
 # For each of the 8 timepoints, register the coordinates on the grid of the cusp(s) that appear at this timepoint
 
 lnx <- list(2,0,2,0,3,c(1,3),1)
