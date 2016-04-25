@@ -16,7 +16,7 @@ install.packages(pkgs="RHmm_2.0.3.tar.gz",repos = NULL, type="source")
 Other necessary packages are :
 
 ```r
-install.packages(c("reshape", "ggplot2", "ade4"), dependencies=TRUE)
+install.packages(c("reshape", "ggplot2", "ade4", "corrplot"), dependencies=TRUE)
 
 source("https://bioconductor.org/biocLite.R")
 biocLite("DESeq2")
